@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="script/script.js" type="text/javascript"></script>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="failed" class="alert alert-danger" role="alert"></div>
+        <h1>Registering</h1>
+            FirstName: 
+            <input id="fname" type="text"> <br>
+            LastName:
+            <input id="lname" type="text"> <br>
+            Phone Number:
+            <input id="pnumber" type="text"> <br> <br>
+        
+        <table class="table">
+            <thead>
+                <tr class="headtr">
+                    <td class="tabletd">ID</td>
+                    <td class="tabletd">First Name</td>
+                    <td class="tabletd">Last Name</td>
+                    <td class="tabletd">Phone Number</td>
+                    <td class="tabletd">Edit</td>
+                </tr>
+            </thead>
+            <tbody class="tbody" id="person-tbody">
+
+            </tbody>
+        </table>
+        <button id="createperson">Add person</button>
+        <button id="refresh">Refresh</button>
+        <button id='dummy'>Call dummy data</button>
+    </body>
+</html>
